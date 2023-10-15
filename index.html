@@ -1,0 +1,1069 @@
+<html>
+
+<head>
+  <meta>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/all.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+
+  <nav class="navbar navbar-expand-lg nav-color fixed-top">
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.jpg" alt="avatar logo" class="rounded-pill bg-light" style="width: 100px;">
+      </a>
+
+      <button class="navbar-toggler mobile-menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active egypt" aria-current="page" href="#">Egypt</a>
+          </li>
+          <div class="vr" style="margin: 0px 16px 0px 8px; height: 72px;"></div>
+          <li class="nav-item">
+            <a class="nav-link link" href="#">Home</a>
+
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle link" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Trips
+            </a>
+            <ul class="dropdown-menu d-m">
+              <li><a class="dropdown-item d-item" href="#">CAIRO</a></li>
+              <li><a class="dropdown-item d-item" href="#">ALEX</a></li>
+              <li>
+                <hr class="dropdown-divider d-divider">
+              </li>
+              <li><a class="dropdown-item d-item" href="#">LUXOR</a></li>
+              <li><a class="dropdown-item d-item" href="#">ASWAN</a></li>
+              <li><a class="dropdown-item d-item" href="#">SHARM EL SHIKH</a></li>
+              <li><a class="dropdown-item d-item" href="#">EL GLALA</a></li>
+              <li><a class="dropdown-item d-item" href="#">More ...</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link" href="#">About</a>
+          </li>
+        </ul>
+        <form class="d-flex form" role="search">
+          <input class="form-control me-2 search" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success  btn-search" type="submit">Search</button>
+          <!-- Button trigger modal -->
+          <button class="btn btn-outline-success mx-2 btn-login" type="button" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">Login</button>
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header m-header">
+                  <h1 class="modal-title fs-5 m-title" id="exampleModalLabel">Login</h1>
+                  <button type="button" class="btn-close close-style-btn" data-bs-dismiss="modal"
+                    aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="mb3 email">
+                    <label for="inputLabel" class="form-label email-label"> Email Address</label>
+                    <input type="email" class="form-control input-email" id="inputLabel"
+                      placeholder="Please Enter Email">
+
+                    <p class="p-label mt-1">We'll never share your email with anyone else</p>
+
+                    <label for="inputLabel" class="form-label password-label"> Password</label>
+                    <input type="password" class="form-control input-password" id="inputLabel"
+                      placeholder="Please Enter Password">
+
+
+                    <div class="form-check form-switch div-switch">
+                      <input class="form-check-input c-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                      <label class="form-check-label c-label" for="flexSwitchCheckDefault">Remember Me</label>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="modal-footer d-flex flex-row justify-content-between">
+                  <button type="button" class="btn modal-login">Login</button>
+                  <button type="button" class="btn modal-close" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carousel -->
+  <div id="carouselExampleIndicators" class="carousel slide main_carousel" data-bs-ride="carousel">
+
+
+
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+    </div>
+
+    <div class="social_icons">
+      <ul class="list_icons" style="list-style-type: none;">
+        <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-square-whatsapp"></i></a></li>
+        <li> <a href="#"><i class="fa-brands fa-square-twitter"></i></a> </li>
+        <li> <a href="#"> <i class="fa-brands fa-linkedin"></i> </a></li>
+        <li> <a href="#"> <i class="fa-brands fa-square-instagram"></i></a></li>
+      </ul>
+    </div>
+
+    <div class="carousel-inner">
+
+      <div class="carousel-item active place1">
+
+        <img src="images/place_1.jpeg" class="d-block w-100" alt="place1" style="height: 18%;">
+        <div class="container overlay_place1 col-6-lg col-md-8 ">
+          <h2>Famous Place</h2>
+          <p>We love this place</p>
+          <button type="button" class="btn visit_btn">Visit Us</button>
+        </div>
+
+      </div>
+      <div class="carousel-item place1">
+        <img src="images/place_2.jpg" class="d-block w-100" alt="place2" style="height: 18%;">
+        <div class="container overlay_place1 col-6-lg col-md-8">
+          <h2>Famous Place</h2>
+          <p>We love this place</p>
+          <button type="button" class="btn visit_btn">Visit Us</button>
+        </div>
+      </div>
+      <div class="carousel-item place1">
+        <img src="images/place_3.jpg" class="d-block w-100" alt="place3" style="height: 18%;">
+        <div class="container overlay_place1 col-6-lg col-md-8">
+          <h2>Famous Place</h2>
+          <p>We love this place</p>
+          <button type="button" class="btn visit_btn">Visit Us</button>
+        </div>
+      </div>
+      <div class="carousel-item place1">
+        <img src="images/place_4.jpg" class="d-block w-100" alt="place4" style="height: 18%;">
+        <div class="container overlay_place1 col-6-lg col-md-8">
+          <h2>Famous Place</h2>
+          <p>We love this place</p>
+          <button type="button" class="btn visit_btn">Visit Us</button>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- ////////////////////////////////////////////////////////////// -->
+
+  <div class="card welcome_card">
+    <div class="card-body welcome_body">
+      <h5 class="card-title">Welcome Sir, Dicover The World ! </h5>
+      <p class="card-text">Perhaps travel cannot prevent bigotry, but by demonstrating that all peoples cry, laugh, eat,
+        worry, and die, it can introduce the idea that if we try and understand each other, we may even become friends.
+      </p>
+      <a href="#" class="btn btn-light welcome_btn">Learn More</a>
+    </div>
+  </div>
+  <!-- ///////////////////////////////////////////////////// -->
+
+  <div class="card text-center popular-div">
+    <div class="card-body">
+      <h2>Popular destinations in the World</h2>
+    </div>
+  </div>
+
+
+
+  <!-- ///////////////////////////////////////////// -->
+
+
+  <div class="accordion shadow-lg" id="accordionExample">
+    <div class="accordion-item shadow-lg">
+      <h2 class="accordion-header shadow-lg">
+        <button class="accordion-button accordion-color" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          GIZA CITY
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+        <div class="accordion-body shadow-lg">
+          In the city, there is always something new to discover, no matter how many times you’ve been there.” “The best
+          way to truly experience the city is to wander without a plan
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item shadow-lg">
+      <h2 class="accordion-header shadow-lg">
+        <button class="accordion-button collapsed accordion-color" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          LUXOR CITY
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body shadow-lg">
+          Wandering the city alone can be therapeutic, a chance to clear your mind and reflect on life.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item shadow-lg">
+      <h2 class="accordion-header shadow-lg">
+        <button class="accordion-button collapsed accordion-color" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          SINAL PENINSULA
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body shadow-lg">
+          The city is a constant reminder that there is always more to explore, more to learn, more to experience.
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ///////////////////////////////////////////////////////////////////// -->
+
+  <div class="card text-center translate-div">
+    <div class="card-body">
+      <h2>Translate From Arabic To English</h2>
+    </div>
+  </div>
+
+
+  <div class="card translate-card">
+    <div class="card-body">
+      <h5 style="display: inline;">Write and Translate</h5>
+      <a href="#" style="text-decoration: none; color: #000;"><span>Press Here</span></a>
+      <br>
+
+
+
+
+
+      <div style="width: 48px;" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right"
+        data-bs-trigger="focus" tabindex="0" data-bs-content="Copied">
+        <div class="btn" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-custom-class="custom-tooltip"
+          data-bs-title="Copy To Clip board">
+          <button class="btn btn-light copy-card" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal2"
+            id="btn-copy">
+            Copy
+          </button>
+        </div>
+      </div>
+      
+      <!-- modal -->
+      <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Owner Of Website Says:</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Text is Copied!
+            </div>
+            <button type="button" class="btn btn-light btn-ok-modal" data-bs-dismiss="modal">OK</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-floating">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+          style="height: 100px"></textarea>
+        <label for="floatingTextarea2" style="color: gray;">Translate</label>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- ////////////////////////////////////////////////////////////////// -->
+
+
+
+  <div class="card text-center translate-div">
+    <div class="card-body">
+      <h2>Translate From Arabic To French</h2>
+    </div>
+  </div>
+
+
+  <div class="card translate-card">
+    <div class="card-body">
+      <h5 style="display: inline;">Write and Translate</h5>
+      <a href="#" style="text-decoration: none; color: #000;"><span>Press Here</span></a>
+      <br>
+
+   
+      <div style="width: 48px;" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right"
+        data-bs-trigger="focus" tabindex="0" data-bs-content="Copied">
+        <div class="btn" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-custom-class="custom-tooltip"
+          data-bs-title="Copy To Clip board">
+          <button class="btn btn-light copy-card" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal2"
+            id="btn-copy">
+            Copy
+          </button>
+        </div>
+      </div>
+
+
+      <!-- modal -->
+      <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Owner Of Website Says:</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Text is Copied!
+            </div>
+            <button type="button" class="btn btn-light btn-ok-modal" data-bs-dismiss="modal">OK</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-floating">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+          style="height: 100px"></textarea>
+        <label for="floatingTextarea2" style="color: gray;">Translate</label>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <!-- ////////////////////////////////////////////////////////////////// -->
+
+
+
+  <div class="card text-center translate-div">
+    <div class="card-body">
+      <h2>Translate From Arabic To German</h2>
+    </div>
+  </div>
+
+
+  <div class="card translate-card">
+    <div class="card-body">
+      <h5 style="display: inline;">Write and Translate</h5>
+      <a href="#" style="text-decoration: none; color: #000;"><span>Press Here</span></a>
+      <br>
+
+      
+      <div style="width: 48px;" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right"
+        data-bs-trigger="focus" tabindex="0" data-bs-content="Copied">
+        <div class="btn" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-custom-class="custom-tooltip"
+          data-bs-title="Copy To Clip board">
+          <button class="btn btn-light copy-card" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal2"
+            id="btn-copy">
+            Copy
+          </button>
+        </div>
+      </div>
+
+
+      <!-- modal -->
+      <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Owner Of Website Says:</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Text is Copied!
+            </div>
+            <button type="button" class="btn btn-light btn-ok-modal" data-bs-dismiss="modal">OK</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-floating">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+          style="height: 100px"></textarea>
+        <label for="floatingTextarea2" style="color: gray;">Translate</label>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- /////////////////////////////////////////////////// -->
+
+  <div class="rule">
+    <hr>
+  </div>
+
+  <!-- /////////////////////////////////////////////////// -->
+
+  <div class="fixed-div text-center">
+  </div>
+  <!-- //////////////////////////////////// -->
+
+  <div class="card text-center popular-card">
+    <div class="card-body">
+      <h2>POPULAR DESTINATIONS IN THE WORLD</h2>
+    </div>
+  </div>
+
+  <!-- ////////////////////////////////////////////// -->
+
+
+  <div class="row row-cols-1 row-cols-md-3 g-4 main-card">
+
+    <div class="col col-item">
+      <div class="card h-80 main-card-item">
+        <img src="images/place_1.jpg" class="card-img-top" alt="...">
+        <div class="card-body main-body">
+          <h5 class="card-title">Singapore</h5>
+          <p class="card-text">Travel is fatal to prejudice</p>
+          <button type="button" class="btn btn-primary main-btn">Know More</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col col-item">
+      <div class="card h-80 main-card-item">
+        <img src="images/place_55.jpg" class="card-img-top" alt="...">
+        <div class="card-body main-body">
+          <h5 class="card-title">Singapore</h5>
+          <p class="card-text">Travel is fatal to prejudice</p>
+          <button type="button" class="btn btn-primary main-btn">Know More</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col col-item">
+      <div class="card h-80 main-card-item">
+        <img src="images/place_9.jpg" class="card-img-top" alt="...">
+        <div class="card-body main-body">
+          <h5 class="card-title">Singapore</h5>
+          <p class="card-text">Travel is fatal to prejudice</p>
+          <button type="button" class="btn btn-primary main-btn">Know More</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="row row-cols-1 row-cols-md-3 g-4 main-card">
+
+    <div class="col col-item">
+      <div class="card h-80 main-card-item">
+        <img src="images/newplace1.jpg" class="card-img-top" alt="...">
+        <div class="card-body main-body">
+          <h5 class="card-title">Korea</h5>
+          <p class="card-text">Travel is fatal to prejudice</p>
+          <button type="button" class="btn btn-primary main-btn">Know More</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col col-item">
+      <div class="card h-80 main-card-item">
+        <img src="images/newplace2.jpg" class="card-img-top" alt="...">
+        <div class="card-body main-body">
+          <h5 class="card-title">Japan</h5>
+          <p class="card-text">Travel is fatal to prejudice</p>
+          <button type="button" class="btn btn-primary main-btn">Know More</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col col-item">
+      <div class="card h-80 main-card-item">
+        <img src="images/newplace3.jpg" class="card-img-top" alt="...">
+        <div class="card-body main-body">
+          <h5 class="card-title">Japan</h5>
+          <p class="card-text">Travel is fatal to prejudice</p>
+          <button type="button" class="btn btn-primary main-btn">Know More</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="row row-cols-1 row-cols-md-3 g-4 d-flex justify-content-around main-card">
+    <div class="col col-item">
+      <div class="card h-80 main-card-item">
+        <img src="images/place_7.jpg" class="card-img-top" alt="...">
+        <div class="card-body main-body">
+          <h5 class="card-title">Singapore</h5>
+          <p class="card-text">Travel is fatal to prejudice</p>
+          <button type="button" class="btn btn-primary main-btn">Know More</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col col-item">
+      <div class="card h-80 main-card-item">
+        <img src="images/place_8.jpg" class="card-img-top" alt="...">
+        <div class="card-body main-body">
+          <h5 class="card-title">Singapore</h5>
+          <p class="card-text">Travel is fatal to prejudice</p>
+          <button type="button" class="btn btn-primary main-btn">Know More</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- //////////////////////////////////////////////////// -->
+  <div class="fixed-div2 text-center">
+  </div>
+
+
+  <div class="rule">
+    <hr>
+  </div>
+
+
+  <div class="card text-center popular-card">
+    <div class="card-body">
+      <h2>THANKS FOR</h2>
+    </div>
+  </div>
+  <!-- /////////////////////////////////////////////////////// -->
+
+
+
+  <div class="row row-cols-1 row-cols-md-3 g-4 main-card-two">
+
+    <div class="col">
+      <div class="card h-90 card-two">
+        <img src="images/newplace1.jpg" class="card-img-top rounded main-image-card-two" alt="...">
+        <div class="card-body card-overlay">
+          <h4>All Thanks and appreciation</h4>
+          <span><i class="fa-regular fa-clock"></i></span>
+          <span>October 15,2023</span>
+          <div class="rounded-cicle">
+            <img src="images/avatar1.jpeg" class="avatar-image" alt="">
+            <p>Two roads diverged in a wood and I – I took the one less traveled by</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-90 card-two">
+        <img src="images/newplace2.jpg" class="card-img-top rounded main-image-card-two" alt="...">
+        <div class="card-body card-overlay">
+          <h4>All Thanks and appreciation</h4>
+          <span><i class="fa-regular fa-clock"></i></span>
+          <span>October 15,2023</span>
+          <div class="rounded-cicle">
+            <img src="images/avatar2.jpeg" class="avatar-image" alt="">
+            <p>I have found out that there ain’t no surer way to find out whether you like people.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-90 card-two">
+        <img src="images/newplace3.jpg" class="card-img-top rounded main-image-card-two" alt="...">
+        <div class="card-body card-overlay">
+          <h4>All Thanks and appreciation</h4>
+          <span><i class="fa-regular fa-clock"></i></span>
+          <span>October 15,2023</span>
+          <div class="rounded-cicle">
+            <img src="images/avatar3.jpg" class="avatar-image" alt="">
+            <p>To awaken quite alone in a strange town is one of the pleasantest sensations.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <!-- ////////////////////////////////////////// -->
+
+
+
+  <div class="rule">
+    <hr>
+  </div>
+
+
+  <h2 class="text-center news-h2">Egypt News</h2>
+
+
+
+  <div class="container shadow-lg rounded card-shadow">
+    <div class="card  mt-5  news-card">
+      <div class="row">
+
+        <div class="col-sm-7 news-card">
+          <div class="card-block ">
+            <h3 class="card-title">Podcast Title</h3>
+            <span><i class="fa-solid fa-calendar-days "></i></span>
+            <span class="after-text">Mon, May 25th 2023</span>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum dignissimos eum quibusdam ratione
+              recusandae
+              impedit placeat, animi reprehenderit similique et. Eveniet reiciendis iste consectetur dolorem excepturi
+              perferendis omnis ea magni.</p>
+
+            <div class="details">
+
+              <div class="podcast">
+                <a href="#" style="text-decoration: none;">
+                  <i class="fa-solid fa-podcast"></i>
+                  <span>Podcast</span>
+                </a>
+              </div>
+
+              <div class="clock">
+                <a href="#" style="text-decoration: none;">
+                  <i class="fa-solid fa-clock"></i>
+                  <span>55 mins</span>
+                </a>
+              </div>
+
+              <div class="play1">
+                <a href="#" style="text-decoration: none;">
+                  <i class="fa-solid fa-play"></i>
+                  <span>Play Episode</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-5 img-news news-card ">
+          <img src="images/newplace2.jpg" class=" rounded-end " alt="...">
+        </div>
+
+
+
+      </div>
+
+
+    </div>
+  </div>
+
+
+
+
+  <div class="container shadow-lg rounded card-shadow">
+    <div class="card mt-5 news-card">
+      <div class="row">
+        <div class="col-sm-5  img-news2 news-card left-0 p-0">
+          <img src="images/place_9.jpg" class="img-fliud rounded-start " alt="...">
+        </div>
+        <div class="col-sm-7  news-card">
+          <div class="card-block ">
+            <h3 class="card-title">Podcast Title</h3>
+            <span><i class="fa-solid fa-calendar-days"></i></span>
+            <span class="after-text2">Mon, May 25th 2023</span>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum dignissimos eum quibusdam ratione
+              recusandae
+              impedit placeat, animi reprehenderit similique et. Eveniet reiciendis iste consectetur dolorem excepturi
+              perferendis omnis ea magni.</p>
+
+            <div class="details">
+
+              <div class="podcast">
+                <a href="#" style="text-decoration: none;">
+                  <i class="fa-solid fa-podcast"></i>
+                  <span>Podcast</span>
+                </a>
+              </div>
+
+              <div class="clock">
+                <a href="#" style="text-decoration: none;">
+                  <i class="fa-solid fa-clock"></i>
+                  <span>55 mins</span>
+                </a>
+              </div>
+
+              <div class="play2">
+                <a href="#" style="text-decoration: none;">
+
+                  <i class="fa-solid fa-play"></i>
+                  <span>Play Episode</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="container shadow-lg rounded card-shadow">
+    <div class="card  mt-5  news-card">
+      <div class="row">
+
+        <div class="col-sm-7 news-card">
+          <div class="card-block ">
+            <h3 class="card-title">Podcast Title</h3>
+            <span><i class="fa-solid fa-calendar-days"></i></span>
+            <span class="after-text3">Mon, May 25th 2023</span>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum dignissimos eum quibusdam ratione
+              recusandae
+              impedit placeat, animi reprehenderit similique et. Eveniet reiciendis iste consectetur dolorem excepturi
+              perferendis omnis ea magni.</p>
+
+            <div class="details">
+
+              <div class="podcast">
+                <a href="#" style="text-decoration: none;">
+                  <i class="fa-solid fa-podcast"></i>
+                  <span>Podcast</span>
+                </a>
+              </div>
+
+              <div class="clock">
+                <a href="#" style="text-decoration: none;">
+                  <i class="fa-solid fa-clock"></i>
+                  <span>55 mins</span>
+                </a>
+              </div>
+
+              <div class="play3">
+                <a href="#" style="text-decoration: none;">
+
+                  <i class="fa-solid fa-play"></i>
+                  <span>Play Episode</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-5 img-news news-card">
+          <img src="images/place_8.jpg" class=" rounded-end " alt="...">
+        </div>
+
+
+
+      </div>
+
+
+    </div>
+
+
+
+
+
+
+    <div class="container shadow-lg rounded card-shadow">
+      <div class="card mt-5 news-card">
+        <div class="row">
+          <div class="col-sm-5  img-news2 news-card left-0 p-0">
+            <img src="images/place_1.jpeg" class="img-fliud rounded-start " alt="...">
+          </div>
+          <div class="col-sm-7  news-card">
+            <div class="card-block ">
+              <h3 class="card-title">Podcast Title</h3>
+              <span><i class="fa-solid fa-calendar-days"></i></span>
+              <span class="after-text4">Mon, May 25th 2023</span>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum dignissimos eum quibusdam ratione
+                recusandae
+                impedit placeat, animi reprehenderit similique et. Eveniet reiciendis iste consectetur dolorem excepturi
+                perferendis omnis ea magni.</p>
+
+              <div class="details">
+
+                <div class="podcast">
+                  <a href="#" style="text-decoration: none;">
+                    <i class="fa-solid fa-podcast"></i>
+                    <span>Podcast</span>
+                  </a>
+                </div>
+
+                <div class="clock">
+                  <a href="#" style="text-decoration: none;">
+                    <i class="fa-solid fa-clock"></i>
+                    <span>55 mins</span>
+                  </a>
+                </div>
+
+                <div class="play4">
+                  <a href="#" style="text-decoration: none;">
+
+                    <i class="fa-solid fa-play"></i>
+                    <span>Play Episode</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+
+      </div>
+    </div>
+
+
+
+    <!-- /////////////////////////////////////////////////////// -->
+
+    <br>
+    <h2 class="text-center join-us"> Join Us</h2>
+    <br>
+
+
+
+
+    <div class="container join d-flex justify-content-evenly">
+
+      <div class="card twitter-card shadow-lg rounded card-shadow">
+        <div class="twitter text-center">
+          <h4>Subscribe Now</h4>
+          <a href="" style="text-decoration: none;"> <img src="images/twitter.png" class="img-fliud "
+              style="width: 140;height: 140; " alt=""> </a>
+          <a href="" style="text-decoration: none;">
+            <p>Go to Link</p>
+          </a>
+        </div>
+      </div>
+
+
+      <div class="card whats-card shadow-lg rounded card-shadow  ms-2">
+        <div class="whats text-center p-2">
+          <h4 class="w-h4">Follow</h4>
+          <a href="" style="text-decoration: none;"> <img src="images/whatsapp.jpeg" class="img-fliud "
+              style="width: 140; height: 112; margin-top: 24px; margin-left: -8px;" alt=""> </a>
+          <a href="" style="text-decoration: none;">
+            <p class="w-gto">Go to Link</p>
+          </a>
+        </div>
+      </div>
+
+
+
+      <div class="card linked-card shadow-lg rounded card-shadow ms-2">
+        <div class="linked text-center">
+          <h4>Like the page</h4>
+          <a href="" style="text-decoration: none;"> <img src="images/linkedin.png" class="img-fliud "
+              style="width: 140; height: 140;" alt=""> </a>
+          <a href="" style="text-decoration: none;">
+            <p>Go to Link</p>
+          </a>
+        </div>
+      </div>
+
+
+
+      <div class="card insta-card shadow-lg rounded card-shadow  ms-2 ">
+        <div class="insta text-center">
+          <h4>Watch Videos</h4>
+          <a href="" style="text-decoration: none;"> <img src="images/instagram.jpg" class="img-fliud "
+              style="width: 140; height: 140;" alt=""> </a>
+          <a href="" style="text-decoration: none;">
+            <p>Go to Link</p>
+          </a>
+        </div>
+      </div>
+
+
+    </div>
+
+
+
+
+
+
+
+    <!-- ///////////////////////////////////////////////////////////////////////// -->
+
+    <div class="footer pt-5 pb-5 text-center text-md-start">
+      <div class="container d-flex justify-content-evenly text-center ">
+
+
+        <div class="info">
+          <hr>
+          <img src="images/logo.jpg" alt="" class=" rounded-pill bg-light shadow-lg" style="width: 80;">
+          <span>Good Company</span>
+          <hr>
+          <p>Tel: 000-000-000</p>
+          <p>Address: Egypt</p>
+          <p>Fax: 000-000-000</p>
+        </div>
+
+        <div class="info info2">
+          <hr>
+          <img src="images/logo.jpg" alt="" class=" rounded-pill bg-light shadow-lg" style="width: 80;">
+          <span>Important Links</span>
+          <hr>
+          <a href="" style="text-decoration: none;">
+            <p>Visit US</p>
+          </a>
+          <a href="" style="text-decoration: none;">
+            <p>Take alook</p>
+          </a>
+          <a href="" style="text-decoration: none;">
+            <p>Your health is more Important</p>
+          </a>
+        </div>
+
+
+        <div class="info">
+          <hr>
+          <img src="images/logo.jpg" alt="" class=" rounded-pill bg-light shadow-lg" style="width: 80;">
+          <span>Vision</span>
+          <hr>
+          <p>Services for all</p>
+          <p>Provide best services</p>
+          <p>you will be better than before </p>
+        </div>
+
+
+      </div>
+      <hr>
+      <p class="copy-right text-center">COPYRIGHT &#169; 2023 SFE , GREAT COMPANY . ALL RIGHT</p>
+      <hr>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

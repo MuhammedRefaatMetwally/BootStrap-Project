@@ -1,0 +1,819 @@
+:root{
+   --mainColor: aqua;
+   --mainColorTransparent :  rgba(0, 255, 255, .5);
+   --mainColorSuperTransparent :  rgba(0, 255, 255, .3);
+   --purpleColor : blueviolet;
+   --headerColor : cadetblue;
+   --cardBody : paleturquoise;
+   --cardOverlayColor : rgb(0, 0, 139,.5);
+}
+
+body{
+    height: 4000px;
+    
+}
+
+.nav-color{
+    margin-top: -10;
+    background-color: rgba(255, 255, 255,.8) !important;
+}
+
+.navbar-nav .egypt{
+    font-size: 28px;
+    color: var(--purpleColor) !important;
+    
+}
+
+.navbar-nav .link{
+    font-size: 20px;
+    margin-top: 8px;
+    color: var(--mainColor) !important;
+}
+
+.form .search{
+    border: 2px solid var(--mainColor);
+}
+.form .search:focus{
+    border: 1px solid var(--mainColor);
+}
+
+.form .btn-search{
+    border: 2px solid var(--mainColor);
+    color: white;
+    background-color: var(--mainColor);
+}
+
+.form .btn-login , .overlay_place1 .visit_btn{
+    border: 2px solid var(--mainColor);
+    color: white;
+    background-color: var(--mainColor);
+}
+
+.form .btn-login:hover , .btn-search:hover{
+    background-color: aquamarine !important;
+    border: 2px;
+}
+
+.d-m{
+    background-color: white;
+    opacity: .8;
+}
+.d-m .d-item{
+    color: var(--mainColor);
+    font-size: 18px;
+}
+
+.d-divider{
+    background-color: var(--mainColor);
+}
+
+.d-m .d-item:hover{
+    color: var(--mainColor);
+    opacity: .5;
+}
+
+.m-header{
+    background-color: var(--mainColor);
+}
+
+.close-style-btn{
+    background-color: white !important;
+    
+}
+
+.m-title{
+    color: white;
+}
+
+.email-label , .password-label{
+    color: var(--mainColor);
+    font-size: 18px;
+}
+
+.input-email , .input-password{
+    border: 2px solid var(--mainColor) !important;
+}
+
+
+
+.div-switch{
+    margin: 8px;
+}
+.c-label{
+    color: var(--mainColor);
+}
+.c-input{
+    background-color: var(--mainColor) !important;
+}
+.c-input:checked{
+    background-color: var(--mainColor) !important;
+    
+}
+
+.modal-login{
+    color: white !important;
+    background-color: var(--mainColor) !important;
+}
+
+.modal-close{
+    color: white !important;
+    background-color: var(--mainColor) !important;
+}
+
+.modal-backdrop {
+    position:unset !important;      /*3shan tsh85 le modal wa howa gowa sticky navbar*/
+  }
+
+
+/*////////////////////////////////////////////////////////////////////////////*/
+
+.place1{
+    position: relative;
+    overflow: auto;
+    text-align: center;
+}
+
+.mobile-menu{
+    margin-right: 30px;
+    background-color: white !important;
+}
+
+.overlay_place1{
+    padding: 40px 0px;
+    background-color: var(--mainColorTransparent);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(25%,-30%);
+}
+
+.overlay_place1 h2 , p , .visit_btn {
+    color: white !important;
+}
+
+.visit_btn:hover{
+    background-color: white !important;
+    color: var(--mainColor) !important;
+}
+/********************************************/
+.main_carousel i{
+    color:var(--mainColorTransparent) ;
+    font-size: 56px;
+    line-height: 80px;
+   }
+
+.social_icons{
+  position: absolute;
+  right: 40;
+  z-index: 7;
+  top: 30%;
+  position: fixed;
+}
+
+.main_carousel li:hover i{
+    color: dodgerblue ;
+}
+
+/********************************************/
+
+.welcome_card{
+    background-color: var(--cardBody)!important;
+    padding: 0px 40px;
+}
+
+.welcome_card p{
+    color: cadetblue !important;
+}
+.welcome_card h5{
+color: var(--purpleColor);
+}
+
+.welcome_btn{
+   
+    color: var(--mainColor) !important;
+}
+
+.welcome_btn:hover{
+color: white !important;
+}
+/***************************************/
+
+
+.popular-div{
+    margin: 16px 8px;
+    background-color:  var(--headerColor)  !important;
+    padding: 56px 0px;
+    color: white !important;
+    
+}
+
+/**********************************************/
+.accordion{
+    margin: 0px 8px;
+}
+.accordion-color{
+    color: var(--purpleColor) !important;
+    font-weight: bold;
+}
+.accordion-button:focus {
+    box-shadow: none !important;
+    border-color:white !important ;
+}
+.accordion-button:not(.collapsed){
+    background-color: white !important;
+}
+
+/************************************************/
+
+
+.translate-div{
+    margin: 32px 8px 0px 8px;
+    background-color: var(--headerColor) !important;
+    color: white !important;
+}
+
+.translate-card{
+    background-color:  var(--cardBody) !important;
+    padding: 8px;
+    margin: 0px 8px 16px 8px;
+}
+
+.translate-card h5{
+color: white !important;
+
+}
+
+.translate-card span{
+    font-size: 20px;
+    margin-left: 4px;
+}
+
+.translate-card .copy-card{
+ color: var(--mainColor) !important;
+ margin: 24px 0px;
+}
+
+.btn-ok-modal{
+    color:white !important;
+    width: 20%;
+    margin: 0px 16px 16px 16px;
+    background-color: var(--headerColor) !important;
+    margin-left: 16px !important; 
+}
+
+/*************************************************/
+
+.rule{
+    margin: 40px 8px;
+}
+
+/********************************/
+
+.fixed-div{
+height: 350px;
+width: 100%;
+background-image: url(../images/fixed_bg.jpg);
+background-attachment: fixed !important;
+background-size:cover ;
+margin: 0px 8px ;
+}
+
+
+
+/***********************************/
+
+.popular-card{
+    padding: 24px 0px;
+    margin: 0px 8px ;
+    background-color: var(--headerColor) !important;
+}
+
+
+.popular-card h2{
+    color: var(--purpleColor);
+}
+
+
+/*******************************************/
+
+
+.main-card .card{
+    margin: 32px 16px;
+}
+
+.main-card .card img{
+    padding: 16px;
+    border-radius: 24px 24px 0px 0px;
+    height: 450px;
+}
+
+
+.main-body h5 , p{
+    margin: 16px 0px;
+color: var(--mainColor) !important;
+}
+.main-body p{
+    font-size: 18px;
+    display: inline-block;
+    margin-right: 100;
+}
+
+.main-btn{
+     margin-top: -32px;
+}
+
+.main-card-item{
+    position: relative;
+}
+
+.main-card-item::before{
+    background-color: var(--mainColorSuperTransparent) !important;
+   position: absolute;
+   content: "";
+   top: 0;
+   left: 0;
+   width: 0;
+   height: 0;
+   z-index: 4;
+   transition: .5s;
+}
+
+.col-item:hover .main-card-item::before{
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    transition: 0.5s;
+  
+}
+
+
+.main-card-item::after{
+    background-color: var(--mainColorSuperTransparent) !important;
+   position: absolute;
+   content: "";
+   bottom: 0;
+   right: 0;
+   width: 0;
+   height: 0;
+   z-index: 4;
+   transition: .5s;
+}
+
+
+.col-item:hover .main-card-item::after{
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    transition: 0.5s;
+  
+}
+
+/************************************************/
+
+
+.fixed-div2{
+    height: 350px;
+    width: 100%;
+    background-image: url(../images/fixed_bg2.jpg);
+    background-attachment: fixed !important;
+    background-size:cover ;
+    margin: 0px 8px ;
+    }
+
+
+/************************************/
+
+
+.main-card-two .main-image-card-two{
+    background-size: cover !important;
+    width: 100%;
+    height: 400px;
+
+}
+
+
+
+
+.card-two{
+margin: 24px;
+position: relative;
+
+}
+
+.card-overlay{
+position: absolute;
+width: 100%;
+height: 100%;
+
+border-radius: 8px;
+background-color: rgba(80, 80, 80,.7) !important ;    
+}
+
+.card-overlay h4 , span , i{
+    color: white;
+    
+}
+.card-overlay h4{
+    margin-top: 48px;
+}
+
+.card-overlay h4 , i{
+    margin-left: 16px;
+}
+
+.card-overlay p {
+    margin-left: 16px;
+    margin-top: 5;
+    color: white !important;
+}
+
+
+    .avatar-image{
+        margin-top: 32px;
+        margin-left: 16px;
+        height: 132px;
+        width: 100px;
+        border:3px solid var(--mainColor) !important;
+        border-radius:50%;
+    }
+
+
+    .card-two:hover{
+        transition: .5s;
+        transform: perspective(500px) scale3d(1,1, -.6) translateZ(56px);
+    
+    }
+
+    .card-two:hover .card-overlay{
+        transition: .5s;
+        background-color: var(--cardOverlayColor) !important;
+    }
+
+
+    /********************************************************/
+
+   
+    .news-h2{
+        color: var(--purpleColor);
+        font-weight: bold;
+    }
+
+
+
+
+    .news-card h3{
+            color: var(--headerColor);
+            margin: 32px 0px  8px 32px;
+
+    }
+   
+    .news-card{
+        position: relative;
+        background-color: rgb(233, 251, 249);
+        
+        border-radius: 8px;
+    }
+
+    .news-card i , span{
+        margin-top: 24px;
+        color: black !important;
+    }
+
+    .news-card i {
+        margin-left: 32px;
+    }
+
+    
+    .news-card .after-text::after{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 124px;
+    border-radius: 16px;
+    height: 6px;
+    margin:8px 0px 8px 32px ;
+    background-color: dodgerblue !important;
+    transition: 0s;
+    }
+
+    .news-card p{
+        margin-left: 32px;
+        margin-top: 72px;
+      
+        color: black !important;
+    }
+
+
+
+    .img-news{
+        position: relative;
+        width: 260;
+        height: 100%;
+        background-size: cover;
+        overflow: hidden;
+       
+        
+    }
+
+
+    .img-news::before{
+        content: '';
+        background:rgb(233, 251, 249);
+        width: 50%;
+        height: 120%;
+        top: -20px;
+        left: -30px;
+        
+        position: absolute;
+        z-index: 1;
+        transform: rotate(-12deg);
+    }
+    
+
+.details{
+    margin-top: 100px;
+}
+.details div{
+    
+    background-color: var(--headerColor);
+    border-radius: 4px;
+    display: inline;
+    padding: 8px;
+
+    font-size: 18;
+}
+
+.details div span{
+    margin-right: 20;
+}
+
+.clock{
+ 
+ margin: 0px 24px;   
+}
+
+
+.details .clock:hover , .podcast:hover{
+    transition: .5s;
+    background-color: white !important;
+   
+} 
+
+.details .clock:hover  i ,.details .clock:hover span , .details .podcast:hover  i ,.details .podcast:hover span{
+    transition: .5s;
+   color: var(--mainColor) !important;
+}
+
+
+.news-card:hover .after-text::after{
+    transition: .5s;
+    width: 164px ;
+}
+
+
+.img-news2{
+position: relative;
+overflow: hidden;
+background-size: cover;
+width: 260;
+height: 100%;
+        
+}
+
+.news-card .after-text2::after{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 124px;
+    border-radius: 16px;
+    height: 6px;
+    margin:8px 0px 8px 32px ;
+    background-color: red !important;
+    transition: 0s;
+    }
+    
+    
+    
+    .news-card:hover .after-text2::after{
+        transition: .5s;
+        width: 164px ;
+    }
+
+    .news-card .img-news2::after{
+        content: '';
+        background:rgb(233, 251, 249);
+        width: 45%;
+        height: 112%;
+        top: -25px;
+        left: 350;
+        border-radius: 0px;
+        position: absolute;
+        z-index: 4;
+        transform: rotate(-8deg);
+    }
+
+
+
+    .news-card:hover .img-news2{
+        transition: .8s;
+        transform: perspective(500px) scale3d(1,1, .3) translateZ(56px);
+    }
+
+    .after-text3::after{
+        position: absolute;
+        content: "";
+        display: block;
+        width: 124px;
+        border-radius: 16px;
+        height: 6px;
+        margin:8px 0px 8px 32px ;
+        background-color: greenyellow !important;
+        transition: 0s;
+    }
+
+
+    .news-card:hover .after-text3::after{
+        transition: .5s;
+        width: 164px ;
+    }
+
+
+
+    .after-text4::after{
+        position: absolute;
+        content: "";
+        display: block;
+        width: 124px;
+        border-radius: 16px;
+        height: 6px;
+        margin:8px 0px 8px 32px ;
+        background-color: darkgoldenrod !important;
+        transition: 0s;
+    }
+
+
+    .news-card:hover .after-text4::after{
+        transition: .5s;
+        width: 164px ;
+    }
+
+    .play1:hover{
+        transition: .5s;
+        background-color: dodgerblue !important;
+    }
+
+    .play1:hover i , .play1:hover span{
+        color: white !important;
+        transition: .5s;
+
+    }
+
+
+
+    .play2:hover{
+        transition: .5s;
+        background-color: red !important;
+    }
+
+    .play2:hover i , .play2:hover span{
+        transition: .5s;
+        color: white !important;
+    }
+
+
+
+    
+    .play3:hover{
+        transition: .5s;
+        background-color: greenyellow !important;
+    }
+
+    .play3:hover i , .play3:hover span{
+        color: white !important;
+        transition: .5s;
+
+    }
+
+
+    .play4:hover{
+        transition: .5s;
+        background-color: darkgoldenrod !important;
+    }
+
+    .play4:hover i , .play4:hover span{
+        color: white !important;
+        transition: .5s;
+
+    }
+
+
+    /************************************************************/
+
+    .join-us{
+        color: var(--purpleColor) !important;
+    }
+
+
+    /**********************************/
+
+    .twitter-card{
+        padding: 16px;
+    }
+
+    .twitter-card h4{
+     color: var(--mainColor) !important;
+    }
+
+    .twitter-card p{
+        font-size: 24px;
+    }
+
+
+
+    .whats-card{
+        padding: 16px;
+    }
+
+    .whats-card h4{
+     color: var(--mainColor) !important;
+    }
+    
+    .whats-card p{
+        font-size: 24px;
+    }
+
+
+
+
+
+
+
+
+    .linked-card{
+        padding: 16px;
+    }
+
+    .linked-card h4{
+     color: var(--mainColor) !important;
+    }
+
+    .linked-card p{
+        font-size: 24px;
+    }
+
+
+.w-h4{
+    margin-bottom: 12px;
+}
+.w-gto{
+    margin-top: 16px;
+}
+
+
+    .insta-card{
+        padding: 16px;
+    }
+
+    .insta-card h4{
+     color: var(--mainColor) !important;
+    }
+
+    .insta-card p{
+        font-size: 24px;
+    }
+
+
+    /************************************************/
+    .footer{
+        margin-top: 24px;
+        background-color: var(--mainColor);
+    }
+
+    .info{
+        width: 100%;
+        margin-right: 24px;
+    }
+    .info span{
+   color: white !important;
+   font-size: 24;
+   margin-left: 8px;
+    }
+
+    .info p{
+        color: white  !important   ;
+    }
+
+    .info2 p{
+        color: black !important;
+    }
+
+    .info p:hover{
+        color: var(--headerColor) !important;
+    }
+
+
+    .copy-right{
+        font-size: 24px;
+        color: var(--purpleColor) !important;
+        font-weight: bold;
+    }
